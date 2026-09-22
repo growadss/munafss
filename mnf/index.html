@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TRADE WITH MUNAAF | Trading Community</title>
+<title>TRADE WITH MUNAAF | Telugu Trading Community</title>
 
 <meta name="description"
-content="TRADE WITH MUNAAF - Telugu + English trading and market learning community. Join the free Telegram community.">
+content="TRADE WITH MUNAAF - Telugu and English trading education community. Join the free Telegram community.">
 
-<!-- ==============================
-     META PIXEL
-================================ -->
+
+<!-- ================= META PIXEL ================= -->
 
 <script>
 !function(f,b,e,v,n,t,s)
@@ -37,14 +36,10 @@ src="https://www.facebook.com/tr?id=1606961424406546&ev=PageView&noscript=1"
 />
 </noscript>
 
-<!-- End Meta Pixel Code -->
-
 
 <style>
 
-/* ==============================
-   RESET
-================================ */
+/* ================= RESET ================= */
 
 *{
     margin:0;
@@ -52,15 +47,13 @@ src="https://www.facebook.com/tr?id=1606961424406546&ev=PageView&noscript=1"
     box-sizing:border-box;
 }
 
-html{
+html,
+body{
     width:100%;
     min-height:100%;
 }
 
 body{
-
-    width:100%;
-    min-height:100vh;
 
     font-family:
     -apple-system,
@@ -70,126 +63,110 @@ body{
     Arial,
     sans-serif;
 
-    color:#ffffff;
+    color:#fff;
 
     background:
 
     radial-gradient(
-        circle at 15% 5%,
-        rgba(51,119,255,.20),
-        transparent 30%
+        circle at 10% 0%,
+        rgba(45,120,255,.22),
+        transparent 32%
     ),
 
     radial-gradient(
-        circle at 100% 35%,
+        circle at 100% 40%,
         rgba(0,210,175,.14),
-        transparent 28%
-    ),
-
-    radial-gradient(
-        circle at 50% 100%,
-        rgba(93,72,255,.12),
         transparent 30%
     ),
 
     linear-gradient(
         145deg,
-        #03050a 0%,
-        #080e18 48%,
-        #03060b 100%
+        #03050a,
+        #08101b 52%,
+        #03060a
     );
 
     overflow-x:hidden;
 }
 
 
-/* ==============================
-   BACKGROUND LIGHT
-================================ */
+/* ================= BACKGROUND ================= */
 
-.background{
+.bg{
     position:fixed;
     inset:0;
-
-    pointer-events:none;
-
     overflow:hidden;
-
+    pointer-events:none;
     z-index:0;
 }
 
 .glow{
     position:absolute;
-
-    width:240px;
-    height:240px;
-
+    width:300px;
+    height:300px;
     border-radius:50%;
-
-    filter:blur(85px);
-
-    opacity:.13;
+    filter:blur(100px);
+    opacity:.14;
 }
 
-.glow.one{
-    background:#287cff;
-    top:-130px;
-    left:-100px;
+.g1{
+    background:#287dff;
+    top:-150px;
+    left:-130px;
 }
 
-.glow.two{
-    background:#00c7a3;
-    right:-130px;
+.g2{
+    background:#00c8a5;
+    right:-150px;
     top:40%;
 }
 
-.glow.three{
-    background:#7555ff;
-    bottom:-150px;
+.g3{
+    background:#704cff;
     left:30%;
+    bottom:-170px;
 }
 
 
-/* ==============================
-   MAIN
-================================ */
+/* ================= FULL SCREEN ================= */
 
-.container{
+.page{
 
     position:relative;
-
     z-index:2;
 
     width:100%;
-    max-width:510px;
-
     min-height:100vh;
+    min-height:100svh;
 
-    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
     padding:
-    13px
-    13px
-    24px;
+    16px
+    14px
+    22px;
+}
 
+.container{
+
+    width:100%;
+    max-width:560px;
+
+    margin:auto;
 }
 
 
-/* ==============================
-   COMMUNITY BADGE
-================================ */
+/* ================= BADGE ================= */
 
-.community-badge{
+.badge{
 
     width:max-content;
 
-    margin:
-    0 auto
-    8px;
+    margin:0 auto 10px;
 
-    padding:
-    6px
-    11px;
+    padding:7px 13px;
 
     border-radius:999px;
 
@@ -198,154 +175,133 @@ body{
 
     border:
     1px solid
-    rgba(255,255,255,.11);
+    rgba(255,255,255,.12);
 
-    backdrop-filter:
-    blur(18px);
-
-    -webkit-backdrop-filter:
-    blur(18px);
+    backdrop-filter:blur(20px);
 
     display:flex;
-
     align-items:center;
+    gap:8px;
 
-    gap:7px;
+    color:#d3ddec;
 
-    color:#c9d5e7;
-
-    font-size:9px;
-
-    letter-spacing:.15px;
+    font-size:10px;
 }
 
-.status-dot{
+.dot{
 
-    width:6px;
-    height:6px;
+    width:7px;
+    height:7px;
 
     border-radius:50%;
 
-    background:#42dca8;
+    background:#43d9a7;
 
     box-shadow:
-    0 0 10px
-    rgba(66,220,168,.65);
+    0 0 12px
+    rgba(67,217,167,.65);
 }
 
 
-/* ==============================
-   LOGO
-================================ */
+/* ================= LOGO ================= */
 
-.logo-wrap{
+.logo-area{
 
     display:flex;
-
     justify-content:center;
 
-    margin:
-    2px
-    0
-    7px;
+    margin-bottom:9px;
 }
 
 .logo{
 
-    width:78px;
-    height:78px;
-
-    border-radius:50%;
+    width:92px;
+    height:92px;
 
     object-fit:cover;
 
+    border-radius:50%;
+
     border:
     3px solid
-    rgba(255,255,255,.80);
+    rgba(255,255,255,.82);
 
     box-shadow:
 
-    0 0 0 6px
+    0 0 0 7px
     rgba(255,255,255,.035),
 
-    0 14px 38px
-    rgba(0,0,0,.48),
+    0 18px 45px
+    rgba(0,0,0,.50),
 
-    0 0 35px
-    rgba(53,126,255,.18);
-
-    background:#111827;
+    0 0 45px
+    rgba(49,126,255,.22);
 }
 
 
-/* ==============================
-   TITLE
-================================ */
+/* ================= TITLE ================= */
 
-.title{
+h1{
 
     text-align:center;
 
-    font-size:29px;
+    font-size:
+    clamp(29px,8vw,42px);
 
-    line-height:1.03;
+    line-height:1;
 
-    letter-spacing:-.8px;
+    letter-spacing:-1px;
 
-    font-weight:850;
+    font-weight:900;
 
-    margin-bottom:5px;
+    margin-bottom:8px;
 }
 
-.title span{
+.gradient{
 
     background:
     linear-gradient(
         90deg,
         #ffffff,
-        #a8c8ff 48%,
-        #71e4ce
+        #a7c8ff 48%,
+        #73e6d0
     );
 
     -webkit-background-clip:text;
-
     background-clip:text;
 
     color:transparent;
 }
 
 
-/* ==============================
-   SUBTITLE
-================================ */
+/* ================= SUBTITLE ================= */
 
 .subtitle{
 
     text-align:center;
 
-    max-width:455px;
+    max-width:500px;
 
     margin:
     0 auto
-    10px;
+    13px;
 
-    color:#a8b5c8;
+    color:#aebacc;
 
-    font-size:12px;
+    font-size:13px;
 
-    line-height:1.42;
+    line-height:1.55;
 }
 
 
-/* ==============================
-   GLASS CARD
-================================ */
+/* ================= MAIN GLASS ================= */
 
-.glass-card{
+.glass{
 
-    padding:12px;
+    padding:
+    14px;
 
-    border-radius:24px;
+    border-radius:27px;
 
     background:
 
@@ -357,116 +313,104 @@ body{
 
     border:
     1px solid
-    rgba(255,255,255,.12);
+    rgba(255,255,255,.13);
 
     box-shadow:
 
-    0 24px 65px
-    rgba(0,0,0,.45),
+    0 28px 75px
+    rgba(0,0,0,.48),
 
     inset 0 1px 0
     rgba(255,255,255,.08);
 
-    backdrop-filter:
-    blur(25px);
-
-    -webkit-backdrop-filter:
-    blur(25px);
+    backdrop-filter:blur(28px);
+    -webkit-backdrop-filter:blur(28px);
 }
 
 
-/* ==============================
-   TRADING MOCKUP
-================================ */
+/* ================= MARKET MOCKUP ================= */
 
-.market-box{
+.mockup{
 
-    padding:11px;
+    padding:13px;
 
-    border-radius:17px;
+    border-radius:19px;
 
     background:
 
     linear-gradient(
         145deg,
-        rgba(15,25,41,.96),
-        rgba(5,10,18,.96)
+        rgba(15,25,42,.97),
+        rgba(5,10,18,.97)
     );
 
     border:
     1px solid
-    rgba(255,255,255,.065);
+    rgba(255,255,255,.07);
+
+    margin-bottom:11px;
+}
+
+.mockup-head{
+
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
 
     margin-bottom:9px;
 }
 
-.market-head{
+.mockup-title{
 
-    display:flex;
+    color:#e8f0fb;
 
-    align-items:center;
-
-    justify-content:space-between;
-
-    margin-bottom:7px;
-}
-
-.market-title{
-
-    color:#e5edf9;
-
-    font-size:10px;
+    font-size:12px;
 
     font-weight:750;
 }
 
-.education-tag{
+.tag{
 
     padding:
-    4px
-    7px;
+    5px 8px;
 
     border-radius:999px;
 
-    color:#76dfc1;
-
     background:
-    rgba(65,214,169,.07);
+    rgba(65,215,170,.07);
 
     border:
     1px solid
-    rgba(65,214,169,.13);
+    rgba(65,215,170,.14);
 
-    font-size:7px;
+    color:#79dfc3;
+
+    font-size:8px;
 
     font-weight:700;
-
-    letter-spacing:.3px;
 }
 
 
-/* ==============================
-   CHART
-================================ */
+/* ================= CHART ================= */
 
 .chart{
 
-    height:82px;
+    height:105px;
 
     position:relative;
 
     overflow:hidden;
 
-    border-radius:12px;
+    border-radius:14px;
 
     background:
     rgba(255,255,255,.018);
 }
 
-.chart-grid{
+.grid{
 
     position:absolute;
-
     inset:0;
 
     background-image:
@@ -485,45 +429,43 @@ body{
     );
 
     background-size:
-    36px 25px;
+    42px 32px;
 }
 
 .chart svg{
 
     position:absolute;
 
-    inset:8px;
+    inset:10px;
 
     width:
-    calc(100% - 16px);
+    calc(100% - 20px);
 
     height:
-    calc(100% - 16px);
+    calc(100% - 20px);
 }
 
 
-/* ==============================
-   INFO ROW
-================================ */
+/* ================= CONTENT BOXES ================= */
 
-.info-row{
+.features{
 
     display:grid;
 
     grid-template-columns:
     repeat(3,1fr);
 
-    gap:7px;
+    gap:8px;
 
-    margin-bottom:10px;
+    margin-bottom:12px;
 }
 
-.info{
+.feature{
 
     padding:
-    9px 6px;
+    11px 7px;
 
-    border-radius:13px;
+    border-radius:15px;
 
     text-align:center;
 
@@ -532,108 +474,103 @@ body{
 
     border:
     1px solid
-    rgba(255,255,255,.055);
+    rgba(255,255,255,.06);
 }
 
-.info-icon{
+.feature-icon{
 
-    width:21px;
-    height:21px;
+    width:25px;
+    height:25px;
 
     margin:
-    0 auto
-    4px;
+    0 auto 6px;
 
-    border-radius:7px;
+    border-radius:8px;
 
     display:flex;
 
     align-items:center;
     justify-content:center;
 
-    color:#9dbfff;
-
     background:
-    rgba(72,137,255,.12);
+    rgba(68,132,255,.13);
 
-    font-size:10px;
+    color:#a4c2ff;
+
+    font-size:9px;
 
     font-weight:800;
 }
 
-.info strong{
+.feature strong{
 
     display:block;
 
-    color:#edf3fc;
+    color:#f0f5fd;
 
-    font-size:9px;
+    font-size:10px;
 
-    margin-bottom:2px;
+    margin-bottom:3px;
 }
 
-.info small{
+.feature span{
 
     display:block;
 
-    color:#7f8da1;
+    color:#8190a4;
 
-    font-size:7.5px;
+    font-size:8px;
 
-    line-height:1.25;
+    line-height:1.35;
 }
 
 
-/* ==============================
-   CTA
-================================ */
+/* ================= CTA ================= */
 
 .cta{
 
     width:100%;
 
-    min-height:53px;
+    min-height:60px;
 
     border:0;
-
     outline:0;
 
-    border-radius:16px;
+    border-radius:17px;
 
     display:flex;
 
     align-items:center;
-
     justify-content:center;
 
-    gap:9px;
+    gap:10px;
 
     cursor:pointer;
 
-    color:#ffffff;
+    color:#fff;
 
     background:
 
     linear-gradient(
         135deg,
         #2786ff,
-        #486bff 50%,
-        #267dff
+        #496dff 50%,
+        #247eff
     );
 
     box-shadow:
 
-    0 13px 32px
-    rgba(39,120,255,.30),
+    0 15px 38px
+    rgba(38,120,255,.32),
 
     inset 0 1px 0
     rgba(255,255,255,.23);
 
-    font-size:12px;
+    font-size:13px;
 
     font-weight:850;
 
-    letter-spacing:.2px;
+    letter-spacing:.25px;
 
     -webkit-tap-highlight-color:transparent;
 
@@ -642,169 +579,170 @@ body{
     filter .15s ease;
 }
 
-.cta:hover{
-
-    filter:brightness(1.04);
-
+.cta:active{
+    transform:scale(.985);
 }
 
-.cta:active{
-
-    transform:scale(.985);
-
+.cta:hover{
+    filter:brightness(1.04);
 }
 
 .telegram-icon{
 
-    width:18px;
-    height:18px;
+    width:21px;
+    height:21px;
 
     flex:none;
 }
 
 
-/* ==============================
-   CTA NOTE
-================================ */
+/* ================= CTA NOTE ================= */
 
 .cta-note{
 
     text-align:center;
 
-    margin-top:5px;
+    margin-top:6px;
 
-    color:#66758a;
+    color:#6d7b8f;
 
-    font-size:8px;
+    font-size:9px;
 }
 
 
-/* ==============================
-   DISCLAIMER
-================================ */
+/* ================= DISCLAIMER ================= */
 
 .disclaimer{
 
-    margin-top:8px;
+    margin-top:10px;
 
     padding:
-    8px 9px;
+    10px 11px;
 
-    border-radius:12px;
+    border-radius:13px;
 
     background:
-    rgba(255,255,255,.022);
+    rgba(255,255,255,.023);
 
     border:
     1px solid
-    rgba(255,255,255,.05);
+    rgba(255,255,255,.055);
+
+    color:#778599;
+
+    font-size:8px;
+
+    line-height:1.5;
 
     text-align:center;
-
-    color:#718095;
-
-    font-size:7.5px;
-
-    line-height:1.45;
 }
 
 
-/* ==============================
-   FOOTER
-================================ */
+/* ================= FOOTER ================= */
 
 .footer{
 
     text-align:center;
 
-    color:#4e5d71;
+    margin-top:9px;
 
-    font-size:7.5px;
+    color:#536174;
 
-    margin-top:8px;
+    font-size:8px;
 }
 
 
-/* ==============================
-   SMALL PHONES
-================================ */
+/* ================= SMALL PHONES ================= */
 
-@media(max-width:360px){
+@media(max-width:380px){
 
-    .container{
-        padding-top:9px;
+    .page{
+        padding:
+        10px
+        10px
+        15px;
     }
 
     .logo{
-        width:68px;
-        height:68px;
-    }
-
-    .title{
-        font-size:25px;
+        width:76px;
+        height:76px;
     }
 
     .subtitle{
         font-size:11px;
-        margin-bottom:8px;
+        margin-bottom:9px;
     }
 
-    .glass-card{
+    .glass{
         padding:10px;
     }
 
-    .market-box{
-        padding:9px;
+    .mockup{
+        padding:10px;
     }
 
     .chart{
-        height:70px;
+        height:82px;
+    }
+
+    .feature{
+        padding:8px 5px;
+    }
+
+    .feature strong{
+        font-size:8.5px;
+    }
+
+    .feature span{
+        font-size:7px;
     }
 
     .cta{
-        min-height:50px;
-        font-size:10.5px;
+        min-height:54px;
+        font-size:11px;
     }
-
 }
 
 </style>
+
 </head>
 
 
 <body>
 
 
-<div class="background">
+<div class="bg">
 
-    <div class="glow one"></div>
-    <div class="glow two"></div>
-    <div class="glow three"></div>
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+    <div class="glow g3"></div>
 
 </div>
 
+
+<div class="page">
 
 <main class="container">
 
 
     <!-- COMMUNITY -->
 
-    <div class="community-badge">
+    <div class="badge">
 
-        <span class="status-dot"></span>
+        <span class="dot"></span>
 
-        తెలుగు + English Trading Community
+        Telugu + English • Trading Learning Community
 
     </div>
 
 
     <!-- LOGO -->
 
-    <div class="logo-wrap">
+    <div class="logo-area">
 
         <img
             src="munaaf.jpg"
-            alt="TRADE WITH MUNAAF"
+            alt="Trade With Munaaf"
             class="logo">
 
     </div>
@@ -812,41 +750,49 @@ body{
 
     <!-- TITLE -->
 
-    <h1 class="title">
+    <h1>
 
-        <span>
+        <span class="gradient">
             TRADE WITH MUNAAF
         </span>
 
     </h1>
 
 
+    <!-- ENGLISH + TELUGU -->
+
     <p class="subtitle">
 
+        Learn & explore trading concepts in
+        <b>English + Telugu</b> —
         తెలుగు లో easy-ga market concepts,
-        trading education & market learning
-        కోసం మా Free Telegram Community లో join అవ్వండి.
+        chart learning & trading education కోసం
+        మా free Telegram community లో join అవ్వండి.
 
     </p>
 
 
     <!-- GLASS CARD -->
 
-    <section class="glass-card">
+    <section class="glass">
 
 
         <!-- MARKET MOCKUP -->
 
-        <div class="market-box">
+        <div class="mockup">
 
-            <div class="market-head">
+            <div class="mockup-head">
 
-                <div class="market-title">
-                    Trading Learning Dashboard
+                <div class="mockup-title">
+
+                    Trading & Market Learning
+
                 </div>
 
-                <div class="education-tag">
-                    EDUCATION
+                <div class="tag">
+
+                    EDUCATIONAL
+
                 </div>
 
             </div>
@@ -854,7 +800,7 @@ body{
 
             <div class="chart">
 
-                <div class="chart-grid"></div>
+                <div class="grid"></div>
 
 
                 <svg
@@ -865,25 +811,25 @@ body{
                     <polyline
 
                         points="
-                        0,80
-                        28,73
-                        55,77
-                        83,61
-                        110,66
-                        140,49
-                        169,55
-                        198,38
-                        228,44
+                        0,82
+                        28,75
+                        55,78
+                        83,62
+                        110,67
+                        140,51
+                        168,56
+                        198,39
+                        228,45
                         258,31
-                        287,36
+                        287,37
                         317,22
-                        347,27
+                        347,28
                         375,14
-                        400,19"
+                        400,20"
 
                         fill="none"
 
-                        stroke="#73aaff"
+                        stroke="#74aaff"
 
                         stroke-width="4"
 
@@ -898,31 +844,31 @@ body{
         </div>
 
 
-        <!-- COMMUNITY FEATURES -->
+        <!-- FEATURES -->
 
-        <div class="info-row">
+        <div class="features">
 
 
-            <div class="info">
+            <div class="feature">
 
-                <div class="info-icon">
+                <div class="feature-icon">
                     తెలుగు
                 </div>
 
                 <strong>
-                    Telugu
+                    Telugu Learning
                 </strong>
 
-                <small>
-                    Simple learning
-                </small>
+                <span>
+                    తెలుగు లో simple explanations
+                </span>
 
             </div>
 
 
-            <div class="info">
+            <div class="feature">
 
-                <div class="info-icon">
+                <div class="feature-icon">
                     ↗
                 </div>
 
@@ -930,26 +876,26 @@ body{
                     Market Study
                 </strong>
 
-                <small>
-                    Concepts & charts
-                </small>
+                <span>
+                    Charts & trading concepts
+                </span>
 
             </div>
 
 
-            <div class="info">
+            <div class="feature">
 
-                <div class="info-icon">
+                <div class="feature-icon">
                     +
                 </div>
 
                 <strong>
-                    Community
+                    Free Community
                 </strong>
 
-                <small>
-                    Free Telegram
-                </small>
+                <span>
+                    Telegram learning community
+                </span>
 
             </div>
 
@@ -972,7 +918,7 @@ body{
                 xmlns="http://www.w3.org/2000/svg">
 
                 <path
-                    d="M21.4 3.2L18.2 20.1C17.95 21.3 17.25 21.6 16.25 21.05L10.8 17.05L8.17 19.58C7.88 19.87 7.64 20.11 7.08 20.11L7.47 14.54L17.61 5.38C18.05 4.99 17.51 4.77 16.92 5.16L4.39 13.05L-1 11.36C-2.17 11 -2.19 10.2 -0.76 9.65L20.3 1.53C21.27 1.18 22.12 1.75 21.4 3.2Z"
+                    d="M21.4 3.2L18.2 20.1C17.95 21.3 17.25 21.6 16.25 21.05L10.8 17.05L8.17 19.58C7.88 19.87 7.64 20.11 7.08 20.11L7.47 14.54L17.61 5.38C18.05 4.99 17.51 4.77 16.92 5.16L4.39 13.05L-1 11.36C-2.17 11 -2.19 10.2 -1 9.65L20.3 1.53C21.27 1.18 22.12 1.75 21.4 3.2Z"
                     fill="white"/>
 
             </svg>
@@ -984,7 +930,8 @@ body{
 
         <div class="cta-note">
 
-            Button tap करने पर Telegram खुलेगा.
+            Tap the button to open Telegram
+            • Telegram లో join అవ్వడానికి tap చేయండి
 
         </div>
 
@@ -993,13 +940,12 @@ body{
 
         <div class="disclaimer">
 
-            <strong>Disclaimer:</strong>
-            यह page केवल educational और informational
-            purposes के लिए है. Stock market में market risk
-            होता है. किसी भी profit, return या result की guarantee
-            नहीं दी जाती. Investment decision लेने से पहले
-            अपना research करें और अपनी financial situation
-            को ध्यान में रखें.
+            <b>Disclaimer:</b>
+            This page is for educational and informational purposes only.
+            ఈ community educational purposes కోసం మాత్రమే.
+            Stock market investments involve market risk.
+            No profit, return or result is guaranteed.
+            Please do your own research before making any investment decision.
 
         </div>
 
@@ -1009,17 +955,19 @@ body{
 
     <div class="footer">
 
-        © 2026 TRADE WITH MUNAAF • Educational Community
+        © 2026 TRADE WITH MUNAAF • Telugu + English Learning Community
 
     </div>
 
 
 </main>
 
+</div>
 
-<!-- =========================================
-     SUBSCRIBE = REAL CTA CLICK ONLY
-========================================= -->
+
+<!-- =================================================
+     REAL USER CLICK → SUBSCRIBE → TELEGRAM
+================================================= -->
 
 <script>
 
@@ -1028,70 +976,62 @@ body{
     const button =
         document.getElementById("telegramBtn");
 
-    let clicked = false;
+    let alreadyClicked = false;
 
 
-    button.addEventListener(
-        "click",
-        function(){
+    button.addEventListener("click",function(){
 
-            /*
-             * This function can ONLY execute
-             * from an actual click on this button.
-             */
+        /*
+        This handler can only run after a genuine
+        user interaction with this exact button.
+        */
 
-            if(clicked){
-                return;
-            }
-
-            clicked = true;
-
-
-            /*
-             * Subscribe event.
-             *
-             * NOT fired:
-             * - on page load
-             * - on PageView
-             * - automatically
-             * - by timer
-             * - by mouse movement
-             * - by scroll
-             */
-
-            if(
-                typeof window.fbq === "function"
-            ){
-
-                window.fbq(
-                    "track",
-                    "Subscribe",
-                    {
-                        content_name:
-                        "TRADE WITH MUNAAF Telegram",
-
-                        content_category:
-                        "Trading Educational Community"
-                    }
-                );
-
-            }
-
-
-            /*
-             * Direct navigation caused by
-             * the user's actual button click.
-             */
-
-            window.location.href =
-            "https://t.me/+XOpVonhbeSA3NzQ1";
-
-        },
-        {
-            once:false,
-            passive:true
+        if(alreadyClicked){
+            return;
         }
-    );
+
+        alreadyClicked = true;
+
+
+        /*
+        SUBSCRIBE EVENT
+
+        NOT fired on:
+        - page load
+        - PageView
+        - timer
+        - scroll
+        - mouse movement
+        - automatic script
+        - background activity
+        */
+
+        if(typeof window.fbq === "function"){
+
+            window.fbq(
+                "track",
+                "Subscribe",
+                {
+                    content_name:
+                    "TRADE WITH MUNAAF Telegram",
+
+                    content_category:
+                    "Trading Educational Community"
+                }
+            );
+
+        }
+
+
+        /*
+        Direct Telegram navigation.
+        No timer / no automatic redirect.
+        */
+
+        window.location.href =
+        "https://t.me/+XOpVonhbeSA3NzQ1";
+
+    });
 
 })();
 
