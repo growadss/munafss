@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TRADE WITH MUNAAF | Trading Community</title>
+
+<meta name="description"
+content="TRADE WITH MUNAAF - Telugu + English trading and market learning community. Join the free Telegram community.">
+
+<!-- ==============================
+     META PIXEL
+================================ -->
+
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1606961424406546');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img
+height="1"
+width="1"
+style="display:none"
+src="https://www.facebook.com/tr?id=1606961424406546&ev=PageView&noscript=1"
+/>
+</noscript>
+
+<!-- End Meta Pixel Code -->
+
+
+<style>
+
+/* ==============================
+   RESET
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    width:100%;
+    min-height:100%;
+}
+
+body{
+
+    width:100%;
+    min-height:100vh;
+
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+    color:#ffffff;
+
+    background:
+
+    radial-gradient(
+        circle at 15% 5%,
+        rgba(51,119,255,.20),
+        transparent 30%
+    ),
+
+    radial-gradient(
+        circle at 100% 35%,
+        rgba(0,210,175,.14),
+        transparent 28%
+    ),
+
+    radial-gradient(
+        circle at 50% 100%,
+        rgba(93,72,255,.12),
+        transparent 30%
+    ),
+
+    linear-gradient(
+        145deg,
+        #03050a 0%,
+        #080e18 48%,
+        #03060b 100%
+    );
+
+    overflow-x:hidden;
+}
+
+
+/* ==============================
+   BACKGROUND LIGHT
+================================ */
+
+.background{
+    position:fixed;
+    inset:0;
+
+    pointer-events:none;
+
+    overflow:hidden;
+
+    z-index:0;
+}
+
+.glow{
+    position:absolute;
+
+    width:240px;
+    height:240px;
+
+    border-radius:50%;
+
+    filter:blur(85px);
+
+    opacity:.13;
+}
+
+.glow.one{
+    background:#287cff;
+    top:-130px;
+    left:-100px;
+}
+
+.glow.two{
+    background:#00c7a3;
+    right:-130px;
+    top:40%;
+}
+
+.glow.three{
+    background:#7555ff;
+    bottom:-150px;
+    left:30%;
+}
+
+
+/* ==============================
+   MAIN
+================================ */
+
+.container{
+
+    position:relative;
+
+    z-index:2;
+
+    width:100%;
+    max-width:510px;
+
+    min-height:100vh;
+
+    margin:0 auto;
+
+    padding:
+    13px
+    13px
+    24px;
+
+}
+
+
+/* ==============================
+   COMMUNITY BADGE
+================================ */
+
+.community-badge{
+
+    width:max-content;
+
+    margin:
+    0 auto
+    8px;
+
+    padding:
+    6px
+    11px;
+
+    border-radius:999px;
+
+    background:
+    rgba(255,255,255,.055);
+
+    border:
+    1px solid
+    rgba(255,255,255,.11);
+
+    backdrop-filter:
+    blur(18px);
+
+    -webkit-backdrop-filter:
+    blur(18px);
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    color:#c9d5e7;
+
+    font-size:9px;
+
+    letter-spacing:.15px;
+}
+
+.status-dot{
+
+    width:6px;
+    height:6px;
+
+    border-radius:50%;
+
+    background:#42dca8;
+
+    box-shadow:
+    0 0 10px
+    rgba(66,220,168,.65);
+}
+
+
+/* ==============================
+   LOGO
+================================ */
+
+.logo-wrap{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:
+    2px
+    0
+    7px;
+}
+
+.logo{
+
+    width:78px;
+    height:78px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:
+    3px solid
+    rgba(255,255,255,.80);
+
+    box-shadow:
+
+    0 0 0 6px
+    rgba(255,255,255,.035),
+
+    0 14px 38px
+    rgba(0,0,0,.48),
+
+    0 0 35px
+    rgba(53,126,255,.18);
+
+    background:#111827;
+}
+
+
+/* ==============================
+   TITLE
+================================ */
+
+.title{
+
+    text-align:center;
+
+    font-size:29px;
+
+    line-height:1.03;
+
+    letter-spacing:-.8px;
+
+    font-weight:850;
+
+    margin-bottom:5px;
+}
+
+.title span{
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #a8c8ff 48%,
+        #71e4ce
+    );
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    color:transparent;
+}
+
+
+/* ==============================
+   SUBTITLE
+================================ */
+
+.subtitle{
+
+    text-align:center;
+
+    max-width:455px;
+
+    margin:
+    0 auto
+    10px;
+
+    color:#a8b5c8;
+
+    font-size:12px;
+
+    line-height:1.42;
+}
+
+
+/* ==============================
+   GLASS CARD
+================================ */
+
+.glass-card{
+
+    padding:12px;
+
+    border-radius:24px;
+
+    background:
+
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,.105),
+        rgba(255,255,255,.025)
+    );
+
+    border:
+    1px solid
+    rgba(255,255,255,.12);
+
+    box-shadow:
+
+    0 24px 65px
+    rgba(0,0,0,.45),
+
+    inset 0 1px 0
+    rgba(255,255,255,.08);
+
+    backdrop-filter:
+    blur(25px);
+
+    -webkit-backdrop-filter:
+    blur(25px);
+}
+
+
+/* ==============================
+   TRADING MOCKUP
+================================ */
+
+.market-box{
+
+    padding:11px;
+
+    border-radius:17px;
+
+    background:
+
+    linear-gradient(
+        145deg,
+        rgba(15,25,41,.96),
+        rgba(5,10,18,.96)
+    );
+
+    border:
+    1px solid
+    rgba(255,255,255,.065);
+
+    margin-bottom:9px;
+}
+
+.market-head{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    margin-bottom:7px;
+}
+
+.market-title{
+
+    color:#e5edf9;
+
+    font-size:10px;
+
+    font-weight:750;
+}
+
+.education-tag{
+
+    padding:
+    4px
+    7px;
+
+    border-radius:999px;
+
+    color:#76dfc1;
+
+    background:
+    rgba(65,214,169,.07);
+
+    border:
+    1px solid
+    rgba(65,214,169,.13);
+
+    font-size:7px;
+
+    font-weight:700;
+
+    letter-spacing:.3px;
+}
+
+
+/* ==============================
+   CHART
+================================ */
+
+.chart{
+
+    height:82px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:12px;
+
+    background:
+    rgba(255,255,255,.018);
+}
+
+.chart-grid{
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(
+        rgba(255,255,255,.045)
+        1px,
+        transparent 1px
+    ),
+
+    linear-gradient(
+        90deg,
+        rgba(255,255,255,.045)
+        1px,
+        transparent 1px
+    );
+
+    background-size:
+    36px 25px;
+}
+
+.chart svg{
+
+    position:absolute;
+
+    inset:8px;
+
+    width:
+    calc(100% - 16px);
+
+    height:
+    calc(100% - 16px);
+}
+
+
+/* ==============================
+   INFO ROW
+================================ */
+
+.info-row{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:7px;
+
+    margin-bottom:10px;
+}
+
+.info{
+
+    padding:
+    9px 6px;
+
+    border-radius:13px;
+
+    text-align:center;
+
+    background:
+    rgba(255,255,255,.035);
+
+    border:
+    1px solid
+    rgba(255,255,255,.055);
+}
+
+.info-icon{
+
+    width:21px;
+    height:21px;
+
+    margin:
+    0 auto
+    4px;
+
+    border-radius:7px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    color:#9dbfff;
+
+    background:
+    rgba(72,137,255,.12);
+
+    font-size:10px;
+
+    font-weight:800;
+}
+
+.info strong{
+
+    display:block;
+
+    color:#edf3fc;
+
+    font-size:9px;
+
+    margin-bottom:2px;
+}
+
+.info small{
+
+    display:block;
+
+    color:#7f8da1;
+
+    font-size:7.5px;
+
+    line-height:1.25;
+}
+
+
+/* ==============================
+   CTA
+================================ */
+
+.cta{
+
+    width:100%;
+
+    min-height:53px;
+
+    border:0;
+
+    outline:0;
+
+    border-radius:16px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:9px;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #2786ff,
+        #486bff 50%,
+        #267dff
+    );
+
+    box-shadow:
+
+    0 13px 32px
+    rgba(39,120,255,.30),
+
+    inset 0 1px 0
+    rgba(255,255,255,.23);
+
+    font-size:12px;
+
+    font-weight:850;
+
+    letter-spacing:.2px;
+
+    -webkit-tap-highlight-color:transparent;
+
+    transition:
+    transform .15s ease,
+    filter .15s ease;
+}
+
+.cta:hover{
+
+    filter:brightness(1.04);
+
+}
+
+.cta:active{
+
+    transform:scale(.985);
+
+}
+
+.telegram-icon{
+
+    width:18px;
+    height:18px;
+
+    flex:none;
+}
+
+
+/* ==============================
+   CTA NOTE
+================================ */
+
+.cta-note{
+
+    text-align:center;
+
+    margin-top:5px;
+
+    color:#66758a;
+
+    font-size:8px;
+}
+
+
+/* ==============================
+   DISCLAIMER
+================================ */
+
+.disclaimer{
+
+    margin-top:8px;
+
+    padding:
+    8px 9px;
+
+    border-radius:12px;
+
+    background:
+    rgba(255,255,255,.022);
+
+    border:
+    1px solid
+    rgba(255,255,255,.05);
+
+    text-align:center;
+
+    color:#718095;
+
+    font-size:7.5px;
+
+    line-height:1.45;
+}
+
+
+/* ==============================
+   FOOTER
+================================ */
+
+.footer{
+
+    text-align:center;
+
+    color:#4e5d71;
+
+    font-size:7.5px;
+
+    margin-top:8px;
+}
+
+
+/* ==============================
+   SMALL PHONES
+================================ */
+
+@media(max-width:360px){
+
+    .container{
+        padding-top:9px;
+    }
+
+    .logo{
+        width:68px;
+        height:68px;
+    }
+
+    .title{
+        font-size:25px;
+    }
+
+    .subtitle{
+        font-size:11px;
+        margin-bottom:8px;
+    }
+
+    .glass-card{
+        padding:10px;
+    }
+
+    .market-box{
+        padding:9px;
+    }
+
+    .chart{
+        height:70px;
+    }
+
+    .cta{
+        min-height:50px;
+        font-size:10.5px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="background">
+
+    <div class="glow one"></div>
+    <div class="glow two"></div>
+    <div class="glow three"></div>
+
+</div>
+
+
+<main class="container">
+
+
+    <!-- COMMUNITY -->
+
+    <div class="community-badge">
+
+        <span class="status-dot"></span>
+
+        తెలుగు + English Trading Community
+
+    </div>
+
+
+    <!-- LOGO -->
+
+    <div class="logo-wrap">
+
+        <img
+            src="munaf.jpg"
+            alt="TRADE WITH MUNAAF"
+            class="logo">
+
+    </div>
+
+
+    <!-- TITLE -->
+
+    <h1 class="title">
+
+        <span>
+            TRADE WITH MUNAAF
+        </span>
+
+    </h1>
+
+
+    <p class="subtitle">
+
+        తెలుగు లో easy-ga market concepts,
+        trading education & market learning
+        కోసం మా Free Telegram Community లో join అవ్వండి.
+
+    </p>
+
+
+    <!-- GLASS CARD -->
+
+    <section class="glass-card">
+
+
+        <!-- MARKET MOCKUP -->
+
+        <div class="market-box">
+
+            <div class="market-head">
+
+                <div class="market-title">
+                    Trading Learning Dashboard
+                </div>
+
+                <div class="education-tag">
+                    EDUCATION
+                </div>
+
+            </div>
+
+
+            <div class="chart">
+
+                <div class="chart-grid"></div>
+
+
+                <svg
+                    viewBox="0 0 400 100"
+                    preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg">
+
+                    <polyline
+
+                        points="
+                        0,80
+                        28,73
+                        55,77
+                        83,61
+                        110,66
+                        140,49
+                        169,55
+                        198,38
+                        228,44
+                        258,31
+                        287,36
+                        317,22
+                        347,27
+                        375,14
+                        400,19"
+
+                        fill="none"
+
+                        stroke="#73aaff"
+
+                        stroke-width="4"
+
+                        stroke-linecap="round"
+
+                        stroke-linejoin="round"/>
+
+                </svg>
+
+            </div>
+
+        </div>
+
+
+        <!-- COMMUNITY FEATURES -->
+
+        <div class="info-row">
+
+
+            <div class="info">
+
+                <div class="info-icon">
+                    తెలుగు
+                </div>
+
+                <strong>
+                    Telugu
+                </strong>
+
+                <small>
+                    Simple learning
+                </small>
+
+            </div>
+
+
+            <div class="info">
+
+                <div class="info-icon">
+                    ↗
+                </div>
+
+                <strong>
+                    Market Study
+                </strong>
+
+                <small>
+                    Concepts & charts
+                </small>
+
+            </div>
+
+
+            <div class="info">
+
+                <div class="info-icon">
+                    +
+                </div>
+
+                <strong>
+                    Community
+                </strong>
+
+                <small>
+                    Free Telegram
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- CTA -->
+
+        <button
+            type="button"
+            class="cta"
+            id="telegramBtn"
+            aria-label="Request to Join Free Telegram">
+
+            <svg
+                class="telegram-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+
+                <path
+                    d="M21.4 3.2L18.2 20.1C17.95 21.3 17.25 21.6 16.25 21.05L10.8 17.05L8.17 19.58C7.88 19.87 7.64 20.11 7.08 20.11L7.47 14.54L17.61 5.38C18.05 4.99 17.51 4.77 16.92 5.16L4.39 13.05L-1 11.36C-2.17 11 -2.19 10.2 -0.76 9.65L20.3 1.53C21.27 1.18 22.12 1.75 21.4 3.2Z"
+                    fill="white"/>
+
+            </svg>
+
+            REQUEST TO JOIN FREE TELEGRAM
+
+        </button>
+
+
+        <div class="cta-note">
+
+            Button tap करने पर Telegram खुलेगा.
+
+        </div>
+
+
+        <!-- DISCLAIMER -->
+
+        <div class="disclaimer">
+
+            <strong>Disclaimer:</strong>
+            यह page केवल educational और informational
+            purposes के लिए है. Stock market में market risk
+            होता है. किसी भी profit, return या result की guarantee
+            नहीं दी जाती. Investment decision लेने से पहले
+            अपना research करें और अपनी financial situation
+            को ध्यान में रखें.
+
+        </div>
+
+
+    </section>
+
+
+    <div class="footer">
+
+        © 2026 TRADE WITH MUNAAF • Educational Community
+
+    </div>
+
+
+</main>
+
+
+<!-- =========================================
+     SUBSCRIBE = REAL CTA CLICK ONLY
+========================================= -->
+
+<script>
+
+(function(){
+
+    const button =
+        document.getElementById("telegramBtn");
+
+    let clicked = false;
+
+
+    button.addEventListener(
+        "click",
+        function(){
+
+            /*
+             * This function can ONLY execute
+             * from an actual click on this button.
+             */
+
+            if(clicked){
+                return;
+            }
+
+            clicked = true;
+
+
+            /*
+             * Subscribe event.
+             *
+             * NOT fired:
+             * - on page load
+             * - on PageView
+             * - automatically
+             * - by timer
+             * - by mouse movement
+             * - by scroll
+             */
+
+            if(
+                typeof window.fbq === "function"
+            ){
+
+                window.fbq(
+                    "track",
+                    "Subscribe",
+                    {
+                        content_name:
+                        "TRADE WITH MUNAAF Telegram",
+
+                        content_category:
+                        "Trading Educational Community"
+                    }
+                );
+
+            }
+
+
+            /*
+             * Direct navigation caused by
+             * the user's actual button click.
+             */
+
+            window.location.href =
+            "https://t.me/+XOpVonhbeSA3NzQ1";
+
+        },
+        {
+            once:false,
+            passive:true
+        }
+    );
+
+})();
+
+</script>
+
+
+</body>
+</html>
